@@ -17,9 +17,6 @@ def longest_cubic_subsequence(sequence):
 
     return ""
 
-
-sequence = input("Enter a sequence: ")
-result = longest_cubic_subsequence(sequence)
-
-print("Longest cubic subsequence:", result)
-print("Length:", len(result))
+if __name__ == "__main__":
+    sequence = input("Enter a sequence: ")
+    result = longest_cubic_subsequence(sequence)
